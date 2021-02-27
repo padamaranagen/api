@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const personalData = require("./database/person/person.json");
-let port = process.env.port || 3000;
+let port = process.env.port || 1337;
 
 app.get("/", (req, res)=>{
     res.send("Hello World");
